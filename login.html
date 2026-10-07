@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Log in — Taathaal
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div data-site-header="">
+  </div>
+  <main class="auth-page">
+   <div class="auth-card">
+    <div class="eyebrow">
+     Your account
+    </div>
+    <h1>
+     Welcome back.
+    </h1>
+    <p class="muted">
+     Sign in to view your orders and continue shopping.
+    </p>
+    <form id="auth-form">
+     <label>
+      Email
+      <input id="email" placeholder="you@example.com" required="" type="email"/>
+     </label>
+     <label>
+      Password
+      <input id="password" placeholder="••••••••" required="" type="password"/>
+     </label>
+     <button class="btn primary full" type="submit">
+      Log in
+     </button>
+    </form>
+    <p class="auth-note">
+     Demo mode: any valid email and a 4+ character password will log you in. Firebase Authentication will replace this later.
+    </p>
+    <p>
+     New to Taathaal?
+     <a class="text-link" href="register.html">
+      Create an account
+     </a>
+    </p>
+   </div>
+  </main>
+  <script src="js/data.js">
+  </script>
+  <script src="js/app.js">
+  </script>
+  <script src="js/admin_features.js">
+  </script>
+  <script src="js/firebase.js" type="module">
+  </script>
+ </body>
+</html>

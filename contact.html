@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Contact — Taathaal
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div data-site-header="">
+  </div>
+  <main class="contact-page">
+   <section class="contact-hero">
+    <div class="container contact-hero-inner">
+     <div>
+      <div class="eyebrow">
+       Get in touch
+      </div>
+      <h1>
+       Let's talk
+       <em>
+        craft.
+       </em>
+      </h1>
+      <p>
+       Questions about a piece, an order, or the stories behind our collections? We'd love to hear from you.
+      </p>
+     </div>
+     <div aria-hidden="true" class="contact-thread">
+      <span>
+      </span>
+      <span>
+      </span>
+      <span>
+      </span>
+     </div>
+    </div>
+   </section>
+   <section class="container contact-layout section">
+    <aside class="contact-info">
+     <div class="eyebrow">
+      Taathaal studio
+     </div>
+     <h2>
+      Made in Assam.
+      <br/>
+      Here when you need us.
+     </h2>
+     <p>
+      For this demo storefront, the contact details below are placeholders ready to be connected to the live business information.
+     </p>
+     <div class="contact-cards">
+      <div class="contact-card">
+       <span class="contact-icon">
+        ✦
+       </span>
+       <div>
+        <small>
+         Email
+        </small>
+        <a href="mailto:hello@taathaal.in">
+         hello@taathaal.in
+        </a>
+       </div>
+      </div>
+      <div class="contact-card">
+       <span class="contact-icon">
+        ↗
+       </span>
+       <div>
+        <small>
+         Studio
+        </small>
+        <strong>
+         Assam, India
+        </strong>
+       </div>
+      </div>
+      <div class="contact-card">
+       <span class="contact-icon">
+        ◷
+       </span>
+       <div>
+        <small>
+         Response time
+        </small>
+        <strong>
+         Within 1–2 business days
+        </strong>
+       </div>
+      </div>
+     </div>
+     <div class="contact-note">
+      <strong>
+       A note on handmade pieces
+      </strong>
+      <p>
+       Small variations in weave, texture and finish are part of what makes handcrafted textiles individual.
+      </p>
+     </div>
+    </aside>
+    <section class="contact-form-card">
+     <div class="eyebrow">
+      Send a message
+     </div>
+     <h2>
+      How can we help?
+     </h2>
+     <p class="muted">
+      Tell us a little about what you need. The form is ready to be connected to Firebase.
+     </p>
+     <form class="form contact-form" onsubmit="event.preventDefault(); alert('Firebase contact form will be connected here.');">
+      <div class="contact-form-row">
+       <label>
+        Name
+        <input autocomplete="name" name="name" required=""/>
+       </label>
+       <label>
+        Email
+        <input autocomplete="email" name="email" required="" type="email"/>
+       </label>
+      </div>
+      <label>
+       Subject
+       <input name="subject" required=""/>
+      </label>
+      <label>
+       Message
+       <textarea name="message" required="" rows="7"></textarea>
+      </label>
+      <button class="btn primary" type="submit">
+       Send message
+       <span>
+        →
+       </span>
+      </button>
+     </form>
+    </section>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container footer-grid">
+    <div>
+     <div class="brand" style="color:white">
+      TAATHAAL
+     </div>
+     <p>
+      Assam craft, interpreted for today.
+     </p>
+    </div>
+    <div>
+     <h3>
+      Shop
+     </h3>
+     <a href="shop.html">
+      All collections
+     </a>
+     <br/>
+     <a href="shop.html?category=Mekhela%20Sador">
+      Mekhela Sador
+     </a>
+    </div>
+    <div>
+     <h3>
+      Explore
+     </h3>
+     <a href="index.html#story">
+      Our Story
+     </a>
+     <br/>
+     <a href="team.html">
+      The Team
+     </a>
+     <br/>
+     <a href="contact.html">
+      Contact
+     </a>
+    </div>
+    <div>
+     <h3>
+      Account
+     </h3>
+     <a href="profile.html">
+      Profile &amp; orders
+     </a>
+     <br/>
+     <a href="cart.html">
+      View your bag
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script src="js/data.js">
+  </script>
+  <script src="js/app.js">
+  </script>
+  <script src="js/admin_features.js">
+  </script>
+  <script src="js/firebase.js" type="module">
+  </script>
+ </body>
+</html>
